@@ -1,0 +1,294 @@
+
+body{
+background-color: aqua;
+}
+#circle {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top:80px;
+    left: 80px;
+    
+  }
+  #oval {
+    width: 200px;
+    height: 110px;
+    background: red;
+    border-radius: 100px / 50px;
+    position: absolute;
+    top:105px;
+  }
+  #light-spot{
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top:120px;
+    left: 120px;
+}
+  #orange {
+    width: 50px;
+    height: 45px;
+    background: rgb(214, 131, 6);
+    border-radius: 50%;
+    position: absolute;
+    top:150px;
+    left: 80px;
+    
+  }
+  #orange-shadow{
+        width: 50px;
+        height: 45px;
+        background: rgb(214, 131, 6);
+        border-radius: 50%;
+        position: absolute;
+        top:150px;
+        left: 80px;
+        box-shadow: 2px 2px 2px 1px  saddlebrown;
+}
+  #orange-stem{
+    width: 10px;
+    height: 4px;
+    background: rgb(2, 107, 46);
+    position: absolute;
+    top:155px;
+    left: 120px;
+    transform: rotate(-20deg);
+}
+  #orange-two {
+    width: 50px;
+    height: 45px;
+    background: rgb(226, 157, 8);
+    border-radius: 50%;
+    position: absolute;
+    top:200px;
+    left: 150px;
+    
+  }
+  #orange-two-shadow {
+    width: 50px;
+    height: 45px;
+    background: rgb(226, 157, 8);
+    border-radius: 50%;
+    position: absolute;
+    top:200px;
+    left: 150px;
+    box-shadow: 2px 2px 2px 1px  saddlebrown;
+  }
+  #orange-stem-two{
+    width: 4px;
+    height: 20px;
+    background: rgb(2, 107, 46);
+    position: absolute;
+    top:185px;
+    left: 175px;
+    
+}
+#leave{
+        width: 10px;
+        height: 5px;
+        background: rgb(7, 122, 32);
+        border-radius: 100px / 50px;
+        position: absolute;
+        top:155px;
+        left: 125px;
+    
+}
+#leave-two{
+    width: 10px;
+    height: 5px;
+    background: rgb(7, 122, 32);
+    border-radius: 100px / 50px;
+    position: absolute;
+    top:155px;
+    left: 110px;
+
+}
+  #book {
+        width: 100px;
+        height: 25px;
+        background: rgb(235, 80, 188);
+        position: absolute;
+        top:190px;
+        left: 50px;
+        box-shadow: 5px 5px 5px 1px  rgb(135, 119, 107);
+        
+}
+#book-two{
+    width: 100px;
+    height: 35px;
+    background: rgb(163, 172, 130);
+    position: absolute;
+    top:210px;
+    left: 60px;
+    box-shadow: 5px 5px 5px 1px  rgb(121, 113, 108);
+}
+#fruit {
+    width: 150px;
+    height: 110px;
+    background: rgb(199, 149, 11);
+    border-radius: 75px / 55px;
+    position: absolute;
+    top:135px;
+    left: 160px;
+  }
+  #fruit-shadow{
+    width: 150px;
+    height: 110px;
+    background: rgb(199, 149, 11);
+    border-radius: 75px / 55px;
+    position: absolute;
+    top:135px;
+    left: 160px;
+    box-shadow: 5px 5px 5px 1px  saddlebrown;
+    
+}
+  #head{
+    width: 80px;
+    height: 110px;
+    background: rgb(216, 114, 19);
+    border-radius: 75px / 55px;
+    position: absolute;
+    top:0px;
+    left: 120px;
+    box-shadow: 5px 5px 5px 1px  saddlebrown;
+}
+
+#oct-arm {
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 rgb(221, 135, 5);
+    position: absolute;
+    top:100px;
+    left: 120px;
+    transform: rotate(-45deg);
+    
+  }
+  #oct-arm-inner {
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 rgb(148, 91, 7);
+    position: absolute;
+    top:100px;
+    left: 120px;
+    transform: rotate(-45deg);
+    box-shadow: 2px 2px 2px 1px  saddlebrown;
+  }
+  #oct-arm-two {
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 rgb(221, 135, 5);
+    position: absolute;
+    top:80px;
+    left: 80px;
+    transform: rotate(-35deg);
+  }
+  #oct-arm-two-inner{
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 rgb(221, 135, 5);
+    position: absolute;
+    top:80px;
+    left: 80px;
+    transform: rotate(-35deg);
+    box-shadow: 2px 2px 2px 1px  saddlebrown;
+  
+}
+  #oct-arm-three {
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 rgb(221, 135, 5);
+    position: absolute;
+    top:100px;
+    left: 80px;
+    transform: rotate(195deg);
+  }
+  #oct-arm-three-inner{
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 rgb(221, 135, 5);
+    position: absolute;
+    top:100px;
+    left: 80px;
+    transform: rotate(195deg);
+    box-shadow: 1px 1px 1px 1px  saddlebrown;
+  
+}
+  #cam{
+    width: 35px;
+    height: 45px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top:200px;
+    left: 260px;
+    box-shadow: 5px 5px 5px 1px  rgb(101, 101, 101);
+}
+#arm{
+    width: 150px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top:130px;
+    left: 120px;
+    transform: rotate(-10deg);
+    box-shadow: 5px 5px 5px 1px  rgb(146, 145, 144);
+}
+#arm-two{
+    width: 150px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top:200px;
+    left: 0px;
+    box-shadow: 5px 5px 5px 1px  rgb(146, 145, 144);
+}
+#finger{
+    width: 60px;
+    height: 10px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top:150px;
+    left: 260px;
+    transform: rotate(30deg);
+    box-shadow: 5px 5px 5px 1px  rgb(146, 145, 144);
+}
+#finger-two{
+    width: 60px;
+    height: 10px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top:160px;
+    left: 250px;
+    transform: rotate(30deg);
+    box-shadow: 5px 5px 5px 1px  rgb(146, 145, 144);
+}
+#finger-three{
+    width: 60px;
+    height: 10px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top:135px;
+    left: 260px;
+    transform: rotate(30deg);
+    box-shadow: 5px 5px 5px 1px  rgb(146, 145, 144);
+}
+#thumb{
+    width: 60px;
+    height: 10px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top:170px;
+    left: 220px;
+    transform: rotate(30deg);
+    box-shadow: 5px 5px 5px 1px  rgb(146, 145, 144);
+}
+    
